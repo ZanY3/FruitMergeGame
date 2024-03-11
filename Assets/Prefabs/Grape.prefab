@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -2220077429990558129}
   m_Layer: 0
   m_Name: Grape
-  m_TagString: 1
+  m_TagString: 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,9 +122,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0029838083, y: 0.017903445}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.5745978
 --- !u!50 &3138239404253151627
 Rigidbody2D:
   serializedVersion: 4
@@ -164,7 +164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122a0cb67a5902d45a046f419eb4a844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newFruitAftrTouch: {fileID: 4003577038383595232, guid: 87ef7efa21293c441be483a04990147b, type: 3}
 --- !u!1 &2330160570397766261
 GameObject:
   m_ObjectHideFlags: 0

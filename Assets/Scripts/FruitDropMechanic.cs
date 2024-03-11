@@ -11,6 +11,7 @@ public class FruitDropMechanic : MonoBehaviour
     public int whichFruit = 0;
     public Vector2 spawnPos;
     public Transform visualWhichFruitPos;
+    public float throwCooldown;
     [Header("Sounds")]
     public AudioSource source;
     public AudioClip spawnSound;
@@ -18,13 +19,19 @@ public class FruitDropMechanic : MonoBehaviour
 
     void Update()
     {
+        throwCooldown -= Time.deltaTime;
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
-            var randomFruit = fruitPrefabs[Random.Range(0, 5)];
-            source.PlayOneShot(spawnSound);
-            var worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            worldPos.z = 0;worldPos.y = 4f;
-            Instantiate(randomFruit, worldPos, Quaternion.identity) ;
+            if(throwCooldown <= 0)
+            {
+                throwCooldown = 0.3f;
+                var randomFruit = fruitPrefabs[Random.Range(0, 5)];
+                source.PlayOneShot(spawnSound);
+                var worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                worldPos.z = 0;worldPos.y = 4f;
+                Instantiate(randomFruit, worldPos, Quaternion.identity) ;
+
+            }
         }
         replaceFruit();
     }

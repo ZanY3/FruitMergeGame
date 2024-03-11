@@ -246,4 +246,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122a0cb67a5902d45a046f419eb4a844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newFruitAftrTouch: {fileID: 1581727893359298746, guid: 198f624769ee16d4faf78193f8913fd2, type: 3}

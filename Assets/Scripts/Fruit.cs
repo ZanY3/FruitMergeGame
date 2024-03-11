@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Fruit : MonoBehaviour
 {
-    public GameObject newFruitAftrTouch;
-    private void Start()
-    {
-    }
+    
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag(gameObject.tag))
+        if(collision.gameObject.tag == gameObject.tag)
         {
-           
+            FruitDropMechanic fruitDropMech = FindAnyObjectByType<FruitDropMechanic>();
+            fruitDropMech.isReadyToReplace = true;
+            fruitDropMech.spawnPos = transform.position;
+            fruitDropMech.whichFruit = int.Parse(gameObject.tag);
+            Destroy(gameObject);
         }
     }
 

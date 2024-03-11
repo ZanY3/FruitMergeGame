@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Grape
-  - BlueBerry
+  - 0
+  - 1
+  - 2
   layers:
   - Default
   - TransparentFX

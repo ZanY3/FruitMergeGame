@@ -242,10 +242,13 @@ MonoBehaviour:
   - {fileID: 4003577038383595232, guid: 87ef7efa21293c441be483a04990147b, type: 3}
   - {fileID: 1581727893359298746, guid: 198f624769ee16d4faf78193f8913fd2, type: 3}
   - {fileID: 2020071041987007788, guid: 85e277f784331c944a4d36a7a3136fe7, type: 3}
+  - {fileID: 3323149400651609840, guid: d09cca998793fc2498b05fd563fbce39, type: 3}
+  - {fileID: 6468728284824940342, guid: 0eacf0565b9504146bb1940852601c4b, type: 3}
+  - {fileID: 4459746645967316377, guid: 67f4d7e2e0cc1ee4f95ccd0cf9256ae6, type: 3}
   isReadyToReplace: 0
   whichFruit: 0
   spawnPos: {x: 0, y: 0}
-  visualWhichFruitPos: {fileID: 974650121}
+  visualWhichFruitPos: {fileID: 0}
   source: {fileID: 154550714}
   spawnSound: {fileID: 8300000, guid: 3fd5332a5e1191146aca14d0600bb440, type: 3}
   fruitMergeSounds:
@@ -1059,37 +1062,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913326683}
   m_CullTransparentMesh: 1
---- !u!1 &974650120
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 974650121}
-  m_Layer: 0
-  m_Name: WhichFruitVisual
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &974650121
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974650120}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 3.87, z: 0.083397806}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1127711334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1804,7 +1776,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 4.0286007, y: 0.115449786}
+  m_Offset: {x: 4.0286007, y: 0.11968446}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1815,7 +1787,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.057201, y: 0.38462663}
+  m_Size: {x: 9.057201, y: 0.37615728}
   m_EdgeRadius: 0
 --- !u!4 &1742999448
 Transform:
@@ -1826,7 +1798,7 @@ Transform:
   m_GameObject: {fileID: 1742999446}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.226388, y: 4.72, z: 0.12965317}
+  m_LocalPosition: {x: -4.226388, y: 4.79, z: 0.12965317}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1971,7 +1943,7 @@ Transform:
   m_GameObject: {fileID: 1823888820}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3000077, y: 1.5108802, z: -0.024395764}
+  m_LocalPosition: {x: 0.0500077, y: 3.6, z: -0.024395764}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2248,7 +2220,6 @@ SceneRoots:
   - {fileID: 1984754190}
   - {fileID: 696635061}
   - {fileID: 1823888822}
-  - {fileID: 974650121}
   - {fileID: 1656575917}
   - {fileID: 603455415}
   - {fileID: 1358265979}

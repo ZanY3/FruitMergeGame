@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class FruitDropMechanic : MonoBehaviour
@@ -19,7 +20,7 @@ public class FruitDropMechanic : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
-            var randomFruit = fruitPrefabs[Random.Range(0, 3)];
+            var randomFruit = fruitPrefabs[Random.Range(0, 5)];
             source.PlayOneShot(spawnSound);
             var worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             worldPos.z = 0;worldPos.y = 4f;

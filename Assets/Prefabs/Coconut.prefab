@@ -163,6 +163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122a0cb67a5902d45a046f419eb4a844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mergeParticle: {fileID: 6149526339727427692, guid: b2d7e209a7e54e142bf82a46f52f9ff3, type: 3}
+  particleColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &4296672375468487283
 GameObject:
   m_ObjectHideFlags: 0

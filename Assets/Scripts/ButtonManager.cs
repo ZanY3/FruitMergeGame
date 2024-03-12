@@ -18,5 +18,9 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene("Credits");
     }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 
 }

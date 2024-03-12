@@ -476,6 +476,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520237173}
   m_CullTransparentMesh: 1
+--- !u!1 &651156336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4811772080729848458, guid: cbdebda8c0fce7148b50b0abdf771a7f, type: 3}
+  m_PrefabInstance: {fileID: 990467780}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &651156337
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651156336}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c87652d9aab979a4ab5fd956d7292c9d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &870065632
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,10 +692,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -49.67
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: c87652d9aab979a4ab5fd956d7292c9d, type: 2}
     - target: {fileID: 4811772080729848458, guid: cbdebda8c0fce7148b50b0abdf771a7f, type: 3}
       propertyPath: m_Name
       value: BlueBerryFruit
@@ -684,7 +706,10 @@ PrefabInstance:
     - {fileID: 725061218613061987, guid: cbdebda8c0fce7148b50b0abdf771a7f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4811772080729848458, guid: cbdebda8c0fce7148b50b0abdf771a7f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 651156337}
   m_SourcePrefab: {fileID: 100100000, guid: cbdebda8c0fce7148b50b0abdf771a7f, type: 3}
 --- !u!1 &1390784951
 GameObject:

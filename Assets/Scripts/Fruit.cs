@@ -6,6 +6,8 @@ public class Fruit : MonoBehaviour
 {
     public GameObject mergeParticle;
     public Color particleColor;
+    [Header("Score")]
+    public int score = 1;
     void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == gameObject.tag)
@@ -14,6 +16,7 @@ public class Fruit : MonoBehaviour
             fruitDropMech.isReadyToReplace = true;
             fruitDropMech.spawnPos = transform.position;
             fruitDropMech.whichFruit = int.Parse(gameObject.tag);
+            fruitDropMech.scoreCount = score;
             Destroy(gameObject);
 
             //fruit splat color = particle color

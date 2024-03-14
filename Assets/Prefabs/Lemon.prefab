@@ -280,6 +280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mergeParticle: {fileID: 6149526339727427692, guid: b2d7e209a7e54e142bf82a46f52f9ff3, type: 3}
   particleColor: {r: 1, g: 0.94986415, b: 0.16509432, a: 1}
+  score: 4
 --- !u!1 &5608473178855312567
 GameObject:
   m_ObjectHideFlags: 0

@@ -187,6 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mergeParticle: {fileID: 6149526339727427692, guid: b2d7e209a7e54e142bf82a46f52f9ff3, type: 3}
   particleColor: {r: 0.5172907, g: 0.9528302, b: 0.4269758, a: 1}
+  score: 6
 --- !u!58 &7058760334694178387
 CircleCollider2D:
   m_ObjectHideFlags: 0
